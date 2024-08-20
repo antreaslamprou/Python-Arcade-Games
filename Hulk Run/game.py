@@ -1,7 +1,7 @@
-# alambrou1_CO1417.py
-# Author: Antreas Lamprou (G21070510)
+# Title: Hulk Run
+# Author: Antreas Lamprou
 # Email: alambrou1@uclan.ac.uk
-# Description: The Dino.py program demonstrates the classic game where a dragon has to jump over some trees that are
+# Description: This python program demonstrates the classic game where a dragon has to jump over some trees that are
 # coming its way. This has been modified to a hulk jumping over buildings so he will avoid breaking them.
 
 # import library for graphics
@@ -202,7 +202,7 @@ def key_press(event):
 # use some standard variables.
 WIDTH = 800
 HEIGHT = 600
-Title = "Dino Run"
+Title = "Hulk Run"
 
 score = 0 # will be used to count the points
 highscore = 0
