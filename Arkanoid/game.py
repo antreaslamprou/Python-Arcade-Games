@@ -1,7 +1,7 @@
-# Arkanoid.py
-# Author: Antreas Lamprou (G21070510)
+# Title = "Arkanoid - First Capstone Project"
+# Author: Antreas Lamprou
 # Email: alambrou1@uclan.ac.uk
-# Description: The Arkanoid.py program demonstrates the classic Arkanoid game where a ball bounces to the sides and on
+# Description: This python program demonstrates the classic Arkanoid game where a ball bounces to the sides and on
 # the craft giving points when the bricks brake. Once all the bricks break, the user wins while if the ball touches
 # the ground, the user loses. The game has 2 Modes : Easy and Hard.
 
