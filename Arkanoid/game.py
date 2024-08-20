@@ -156,13 +156,16 @@ def shadow():
 
 # creates the game mode based on input
 def key_press(event):
+    global game_mode
     if event.char == 'x' or event.char == 'X':
         quit()
-    if event.char == '1':
+    if event.char == '1' and game_mode == 0:
+        game_mode = 1
         canvas.delete(text1,text2,text3,text4,main_menu,box)
         animation()
         shadow()
-    if event.char == '2':
+    if event.char == '2' and game_mode == 0:
+        game_mode = 2
         canvas.delete(text1,text2,text3,text4,main_menu,box)
         animation()
         animation()
@@ -177,7 +180,7 @@ Title = "Arkanoid - First Capstone Project"
 color = ["purple" , "blue" , "skyblue", "yellow", "orange"] # brick color
 side_x = 53 # brick width side size
 side_y = 20 # brick height side size
-
+game_mode = 0 # default value before choosing game mode
 
 # for the ball
 DELAY = 20  # delay between animations, in milliseconds
